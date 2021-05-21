@@ -8,5 +8,9 @@ public class Garage {
 	public void addVehicle(Vehicle input){
 		storage.add(input); 
 		//remove method that accepts index or type use clear method to empty garage, implement bill method g
+		
+	}
+	public void removeVehicle(int indexNum){
+		storage.remove(indexNum);
 	}
 }
