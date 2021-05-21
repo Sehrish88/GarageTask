@@ -5,6 +5,8 @@ public class Vehicle {
 	public String model;
 	public int year;
 	public String color;
+	public int id; 
+	
 	
 	public Vehicle(String make, String model, int year, String color) {
 		this.make = make;
