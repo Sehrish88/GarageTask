@@ -1,11 +1,11 @@
 package com.qa.garagetask;
 
-public class Vehicle {
+public abstract class Vehicle implements Specs {
 	public String make;
 	public String model;
 	public int year;
 	public String color;
-	public int id; 
+	public int licensePlate; 
 	
 	
 	public Vehicle(String make, String model, int year, String color) {
@@ -15,7 +15,5 @@ public class Vehicle {
 		this.color = color;
 		
 	}
-	public static void main(String[] args) {
-		 
-	}
-}
+	
+} 
