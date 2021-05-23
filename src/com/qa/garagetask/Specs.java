@@ -4,7 +4,7 @@ public interface Specs {
 	
 	public  void oilChange();
 	
-	public void servic();
+	public void service();
 	
 	public void accelerate();
 	
