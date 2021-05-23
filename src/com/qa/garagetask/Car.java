@@ -8,5 +8,25 @@ public class Car extends Vehicle {
 		this.isElectric = isElectric; 
 		
 	}
+	@Override
+	public void oilChange() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void servic() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void accelerate() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void brake() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
